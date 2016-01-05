@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contentArray">
+        <item>@string/content_toolbar</item>
+        <item>@string/content_blendent</item>
+        <item>@string/content_recyclerview</item>
+        <item>@string/content_cardview</item>
+        <item>@string/content_animation</item>
+    </string-array>
+
+    <string-array name="optionRecyclerViewArray">
+        <item>@string/option_recyclerview_multitype</item>
+        <item>@string/option_recyclerview_multilayout</item>
+        <item>@string/option_recyclerview_animation</item>
+        <item>@string/option_recyclerview_decorator</item>
+    </string-array>
+
+
+    <string-array name="multitypeArray">
+        <item>@string/multitype_left_string1</item>
+        <item>@string/multitype_right_string1</item>
+        <item>@string/multitype_left_string2</item>
+        <item>@string/multitype_right_string2</item>
+        <item>@string/multitype_left_string3</item>
+        <item>@string/multitype_right_string3</item>
+        <item>@string/multitype_left_string4</item>
+        <item>@string/multitype_right_string4</item>
+    </string-array>
+
+    <string-array name="multilayoutArray">
+        <item>@string/multilayout_str1</item>
+        <item>@string/multilayout_str2</item>
+        <item>@string/multilayout_str3</item>
+        <item>@string/multilayout_str4</item>
+        <item>@string/multilayout_str5</item>
+        <item>@string/multilayout_str6</item>
+        <item>@string/multilayout_str7</item>
+        <item>@string/multilayout_str8</item>
+        <item>@string/multilayout_str9</item>
+        <item>@string/multilayout_str10</item>
+        <item>@string/multilayout_str11</item>
+        <item>@string/multilayout_str12</item>
+        <item>@string/multilayout_str13</item>
+        <item>@string/multilayout_str14</item>
+        <item>@string/multilayout_str15</item>
+        <item>@string/multilayout_str16</item>
+        <item>@string/multilayout_str17</item>
+        <item>@string/multilayout_str18</item>
+        <item>@string/multilayout_str19</item>
+        <item>@string/multilayout_str20</item>
+    </string-array>
+</resources>

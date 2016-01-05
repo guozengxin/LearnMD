@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Material Design setup-->
+        <item name="colorPrimary">@color/theme_color_primary</item>
+        <item name="colorPrimaryDark">@color/theme_color_primary_dark</item>
+        <item name="android:textColorPrimary">@color/theme_text_color_primary</item>
+        <item name="android:windowBackground">@color/light_black</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="baseListTextStyle">
+        <item name="android:background">@drawable/selector_round_item</item>
+    </style>
+
+    <style name="mainTextStyle" parent="baseListTextStyle">
+    </style>
+
+    <style name="toolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="recyclerViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="baseMultiTypeLayoutStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="multiTypeLayoutStyle" parent="baseMultiTypeLayoutStyle">
+    </style>
+
+</resources>
